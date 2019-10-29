@@ -419,7 +419,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 
 .bg-primary {
   background: #1d5f85;
-  background: linear-gradient(#1d5f85, #226085);
+  background: linear-gradient(#1d5f85, #1d5f85);
 }
 
 .text-primary {
@@ -453,4 +453,25 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 .btn-xl {
   font-size: 11px;
   padding: 15px 45px;
+}
+
+.flux-icon {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: auto;
+}
+
+#step-1 {
+  background-image: url("../img/flux/1.png");
+}
+
+#step-2 {
+  background-image: url("../img/flux/2.png");
+}
+
+#step-3 {
+  background-image: url("../img/flux/3.png");
 }
