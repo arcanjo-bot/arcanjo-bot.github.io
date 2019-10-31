@@ -61,6 +61,7 @@ section h2 {
 
 #mainNav {
   border-color: rgba(34, 34, 34, 0.05);
+
   background-color: white;
   transition: all .35s;
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
@@ -462,6 +463,47 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   width: 150px;
   height: 150px;
   margin: auto;
+  border-width: 3px;
+  border-color: #2499dc;
+  border-style: solid;
+  border-radius: 75px;
+}
+
+.text-flux {
+  color: white !important;
+  -webkit-text-stroke-color: #2499dc;
+  -webkit-text-stroke-width: 0.1px;
+}
+
+@media (min-width: 150px) {
+  .line-vertical {
+    background-image: url("../img/flux/dot.png");
+    background-position: center;
+    background-repeat: repeat-y;
+  }
+}
+
+@media (min-width: 1200px) {
+  .line {
+    background-image: url("../img/flux/dot.png");
+    background-position: center;
+    background-repeat: repeat-x;
+  }
+  .line-left {
+    background-image: url("../img/flux/line.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150% 20px;
+  }
+  .line-right {
+    background-image: url("../img/flux/line-right.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150% 20px;
+  }
+  .line-vertical {
+    background-image: url("");
+  }
 }
 
 #step-1 {
@@ -474,4 +516,12 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 
 #step-3 {
   background-image: url("../img/flux/3.png");
+}
+
+#step-4 {
+  background-image: url("../img/flux/4.png");
+}
+
+#step-5 {
+  background-image: url("../img/flux/5.png");
 }
