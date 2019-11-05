@@ -519,6 +519,11 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   padding: 0 !important;
 }
 
+.feature-paragraph {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
 #step-1 {
   background-image: url("../img/flux/1.png");
 }
