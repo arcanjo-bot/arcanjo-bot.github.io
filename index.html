@@ -1,290 +1,390 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta property="title" content="Arcanjo - Soluções Hospitalares" />
+    <meta property="og:title" content="Arcanjo - Soluções Hospitalares" />
+    <meta property="og:url" content="https://arcanjo.tech" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta
+      name="description"
+      content="Inteligência Artificial integrada em um bot de Whatsapp para melhorar a experiência do paciente e a produtividade do seu hospital"
+    />
+    <meta
+      name="og:description"
+      content="Inteligência Artificial integrada em um bot de Whatsapp para melhorar a experiência do paciente e a produtividade do seu hospital"
+    />
+    <meta name="author" content="Arcanjo Tech" />
 
-<head>
+    <title>Arcanjo - Soluções Hospitalares</title>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta property="title" content="Arcanjo - Soluções Hospitalares" />
-  <meta property="og:title" content="Arcanjo - Soluções Hospitalares" />
-  <meta property="og:url" content="https://arcanjo.tech" />
-  <meta property="og:locale" content="pt_BR" />
-  <meta name="description" content="Inteligência Artificial integrada em um bot de Whatsapp para melhorar a experiência do paciente e a produtividade do seu hospital">
-  <meta name="og:description" content="Inteligência Artificial integrada em um bot de Whatsapp para melhorar a experiência do paciente e a produtividade do seu hospital">
-  <meta name="author" content="Arcanjo Tech">
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet" />
 
-  <title>Arcanjo - Soluções Hospitalares</title>
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="vendor/simple-line-icons/css/simple-line-icons.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Muli"
+      rel="stylesheet"
+    />
 
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <!-- Mask phone plugin -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="device-mockups/device-mockups.css" />
 
-  <!-- Custom fonts for this template -->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/new-age-arcanjo.css" rel="stylesheet" />
+  </head>
 
-  <!-- Mask phone plugin -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
-  <!-- Plugin CSS -->
-  <link rel="stylesheet" href="device-mockups/device-mockups.css">
-
-  <!-- Custom styles for this template -->
-  <link href="css/new-age-arcanjo.css" rel="stylesheet">
-
-</head>
-
-<body id="page-top">
-
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Arcanjo</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
-        <i class="fas fa-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">O Arcanjo</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#workflow">Funcionamento</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#features">Diferenciais</a>
-            </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Contato</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <header class="masthead">
-    <div class="container h-100">
-      <div class="row h-100">
-        <div class="col-lg-7 my-auto">
-          <div class="header-content mx-auto">
-            <h1 class="mb-5">Arcanjo é para seu paciente e para o seu hospital.</h1>
-            <a href="#contact" class="btn btn-outline btn-xl js-scroll-trigger">Tenha o Arcanjo</a>
+  <body id="page-top">
+    <!-- Header -->
+    <header class="masthead d-flex justify-content-center align-items-center">
+      <div class="container">
+        <div class="row h-100">
+          <div class="col-lg-7 my-auto">
+            <div class="header-content mx-auto">
+              <h1 class="">
+                Fila Digital Arcanjo
+              </h1>
+              <h3 class="mb-5">
+                Gestão inteligente para filas <br />
+                de hospitais e clínicas
+              </h3>
+              <div class="device-container">
+                <div class="device-mockup mackbook">
+                  <div class="device"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 my-auto">
+            <form
+              target="_blank"
+              action="https://formspree.io/meqjzzez"
+              method="POST"
+            >
+              <input
+                type="hidden"
+                name="_next"
+                value="https://arcanjo.tech/index.html"
+              />
+              <div class="form-group">
+                <label for="name">Nome</label>
+                <input
+                  class="form-control"
+                  placeholder="Sara Maria"
+                  type="text"
+                  name="name"
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input
+                  class="form-control"
+                  placeholder="sara@maria.com"
+                  type="email"
+                  name="_replyto"
+                />
+              </div>
+              <div class="form-group">
+                <label for="phone">Telefone</label>
+                <input
+                  class="form-control"
+                  placeholder="(21)99999-9999"
+                  id="phone"
+                  type="phone"
+                  name="phone"
+                />
+              </div>
+              <div class="row justify-content-between">
+                <div class="col">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="contactOption"
+                      id="WhatsApp"
+                      value="WhatsApp"
+                      checked
+                    />
+                    <label class="form-check-label" for="WhatsApp">
+                      Contato via WhatsApp
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="contactOption"
+                      id="PhoneCall"
+                      value="Phone Call"
+                    />
+                    <label class="form-check-label" for="PhoneCall">
+                      Contato via ligação
+                    </label>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="form-group text-right">
+                    <input
+                      class="btn btn-outline btn-xl js-scroll-trigger"
+                      type="submit"
+                      value="Melhore minha fila"
+                    />
+                  </div>
+                </div>
+              </div>
+              <script type="text/javascript">
+                $("#phone").mask("(00) 00000-0000");
+              </script>
+            </form>
           </div>
         </div>
-        <div class="col-lg-5 my-auto">
-          <div class="device-container">
-            <div class="device-mockup iphoneX portrait black">
-              <div class="device">
-              </div>
+      </div>
+    </header>
+    <!-- About -->
+    <section class="features" id="about">
+      <div class="container">
+        <div class="section-heading text-center">
+          <h2>Paciente foi embora sem ser atendido?</h2>
+          <hr />
+        </div>
+        <div class="row">
+          <div class="col-lg">
+            <div class="feature-paragraph">
+              <h3>Não deixe que seu paciente saia sem ser atendido</h3>
+              Estudos mostram que mais de 7% dos pacientes saem de uma unidade
+              de emergência sem receber atendimento. Esse número pode aumentar
+              conforme o tempo de espera. Por isso, é crucial que o tempo entre
+              a entrada do paciente na unidade e o primeiro atendimento seja o
+              menor possível.
+            </div>
+          </div>
+          <div class="col-lg justify-content-center align-items-center d-flex">
+            <div class="feature-paragraph">
+              <a
+                href="#contact"
+                class="btn btn-primary btn-xl js-scroll-trigger"
+                >Obtenha a fila digital</a
+              >
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </header>
-
-  <section class="features" id="about">
-    <div class="container">
-      <div class="section-heading text-center">
-        <h2>O que é o Arcanjo?</h2>
-        <hr>
-      </div>
-      <div class="row">
-        <div class="col-lg">
-          <div class="feature-paragraph">
-            <h3>Para seu paciente</h3>
-            O Arcanjo é uma solução de inteligência artificial por meio de um bot no WhatsApp que veio para 
-            melhorar a experiência de pacientes com necessidade de atendimento emergencial.<br \>
-            Para agilizar o procedimento de check-in e passar por uma pré-triagem, basta entrar em contato 
-            com o número Arcanjo do hospital. Essa mudança evita a formação de filas na entrada da emergência.<br \>
-            O bot envia na mesma hora um QR Code que será apresentado
-            para o atendente, tendo assim todas as informações registradas no sistema.
-          </div>
-        </div>
-        <div class="col-lg">
-          <div class="feature-paragraph">
-            <h3>Para seu hospital</h3>
-            Além dos dados de cadastro entregues ao recepcionista, todos os sintomas são automaticamente passados ao profissional
-            que realizará o contato com o paciente e a triagem no local. <br \>
-            Com isso, garante um fluxo contínuo das informações até o final da consulta com o médico, quando
-            uma mensagem é enviada ao paciente para marcação da revisão. <br \>
-            O Arcanjo garante assim a captação do paciente e evita a reincidência na emergência, além de gerar 
-            índices de produtividade para o hospital.
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="download bg-primary text-center" id="workflow">
+    </section>
+    <!-- Offer -->
+    <section class="download bg-primary text-center" id="download">
       <div class="container">
         <div class="row">
-          <div class="col-lg col-lg-special">
-            <div class="line-left">
-              <div class="flux-icon" id="step-1"></div>
-            </div>
-            <div>
-              <p class="text-center text-flux">Paciente chama pelo WhatsApp</p>
-            </div>
-          </div>
-            <div class="col-lg col-lg-special">
-            <div class="line">
-              <div class="flux-icon" id="step-2"></div>
-            </div>
-            <div>
-              <p class="text-center text-flux">Realiza pré-triagem</p>
-            </div>
-          </div>
-          <div class="col-lg col-lg-special">
-            <div class="line">
-              <div class="flux-icon" id="step-3"></div>
-            </div>
-            <div>
-              <p class="text-center text-flux">Realiza check-in online</p>
-            </div>
-          </div>
-          <div class="col-lg col-lg-special">
-            <div class="line">
-              <div class="flux-icon" id="step-4"></div>
-            </div>
-            <div>
-              <p class="text-center text-flux">Atendimento no Hospital</p>
-            </div>
-          </div>
-          <div class="col-lg col-lg-special">
-            <div class="line-right">
-              <div class="flux-icon" id="step-5"></div>
-            </div>
-            <div>
-              <p class="text-center text-flux">Acompanhamento pós-consulta</p>
-            </div>
+          <div class="col-md-8 mx-auto">
+            <h2 class="section-heading">
+              Apenas no lançamento
+            </h2>
+            <p>
+              Como oferta especial de lançamento disponibilizaremos atendimento
+              individualizado para os primeiros 10 hospitais ou clínicas
+            </p>
+            <a href="#contact" class="btn btn-outline btn-xl js-scroll-trigger"
+              >Quero aproveitar</a
+            >
           </div>
         </div>
       </div>
-  </section>
-
-  <section class="features" id="features">
-    <div class="container">
-      <div class="section-heading text-center">
-        <h2>Por que usar o Arcanjo?</h2>
-        <p class="text-muted">Veja o que podemos fazer por você!</p>
-        <hr>
-      </div>
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-lg-6">
-                <div class="feature-item">
-                  <i class="icon-screen-smartphone text-primary"></i>
-                  <h3>Acessibilidade</h3>
-                  <p class="text-muted">Arcanjo é feito para o WhatsApp, não necessita instalação de aplicativos para o cliente.</p>
-                </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="feature-item">
-                  <i class="icon-graph text-primary"></i>
-                  <h3>Acompanhamento</h3>
-                  <p class="text-muted">Acompanhe o paciente durante todo o fluxo na emergência.</p>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-6">
-                <div class="feature-item">
-                  <i class="icon-chart text-primary"></i>
-                  <h3>Produtividade</h3>
-                  <p class="text-muted">O Arcanjo entrega índices de produtividade para o seu hospital.</p>
-                </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="feature-item">
-                  <i class="icon-screen-desktop text-primary"></i>
-                  <h3>Fácil integração</h3>
-                  <p class="text-muted">O Arcanjo funciona em qualquer computador, sem a necessidade de instalação.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="cta">
-    <div class="cta-content">
+    </section>
+    <!-- Competitive advantages -->
+    <section class="features" id="features">
       <div class="container">
-        <h2>Não espere pelo futuro.<br>Comece agora.</h2>
-        <a href="#contact" class="btn btn-outline btn-xl js-scroll-trigger">Fale Conosco</a>
+        <div class="section-heading text-center">
+          <h2>Feito para o seu hospital</h2>
+          <p class="text-muted">
+            A Fila Digital da Arcanjo foi desenvolvida com foco em hospitais e
+            clínicas
+          </p>
+          <hr />
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="feature-item">
+                    <i class="fas fa-filter text-primary"></i>
+                    <h3>Atua no gargalo</h3>
+                    <p class="text-muted">
+                      Diferentemente dos aplicativos genéricos de filas
+                      virtuais, nosso foco se encontra no primeiro atendimento.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="feature-item">
+                    <i class="icon-graph text-primary"></i>
+                    <h3>Customizado</h3>
+                    <p class="text-muted">
+                      Solução customizada para sua empresa. Paciente encontrará
+                      apenas hospitais da sua rede.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="feature-item">
+                    <i class="icon-chart text-primary"></i>
+                    <h3>Esteja adiantado</h3>
+                    <p class="text-muted">
+                      O paciente envia os dados necessários antes de chegar na
+                      unidade. O hospital apenas espera pelo paciente.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="feature-item">
+                    <i class="icon-screen-desktop text-primary"></i>
+                    <h3>Fácil integração</h3>
+                    <p class="text-muted">
+                      O Arcanjo funciona em qualquer computador, sem a
+                      necessidade de instalação.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="overlay"></div>
-  </section>
-
-  <section class="contact bg-primary" id="contact">
-    <div class="container">
-      <h2>Peça o Arcanjo para seu hospital</h2>
-      <form target='_blank' action="https://formspree.io/meqjzzez" method="POST">
-        <input type="hidden" name="_next" value="https://arcanjo.tech/index.html"/>        
-        <div class="form-group">
-          <label for="name">Nome</label>
-          <input class="form-control" placeholder="Sara Maria" type="text" name="name">
+    </section>
+    <!-- Call to action -->
+    <section class="cta">
+      <div class="cta-content">
+        <div class="container">
+          <h2>Não espere pelo futuro.<br />Comece agora.</h2>
+          <a href="#contact" class="btn btn-outline btn-xl js-scroll-trigger"
+            >Fale Conosco</a
+          >
         </div>
-        <div class="form-group">
-          <label for="email">Email</label>
-          <input class="form-control" placeholder="sara@maria.com" type="email" name="_replyto">
-        </div>
-        <div class="form-group">
-          <label for="phone">Telefone</label>
-          <input class="form-control" placeholder="(21)99999-9999" id="phone" type="phone" name="phone">
-        </div>
-        <div class="row justify-content-between">
-          <div class="col">
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="contactOption" id="WhatsApp" value="WhatsApp" checked>
+      </div>
+      <div class="overlay"></div>
+    </section>
+    <!-- Contact -->
+    <section class="contact bg-primary" id="contact">
+      <div class="container">
+        <h2>Peça a Fila Digital para seu hospital</h2>
+        <form
+          target="_blank"
+          action="https://formspree.io/meqjzzez"
+          method="POST"
+        >
+          <input
+            type="hidden"
+            name="_next"
+            value="https://arcanjo.tech/index.html"
+          />
+          <div class="form-group">
+            <label for="name">Nome</label>
+            <input
+              class="form-control"
+              placeholder="Sara Maria"
+              type="text"
+              name="name"
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              class="form-control"
+              placeholder="sara@maria.com"
+              type="email"
+              name="_replyto"
+            />
+          </div>
+          <div class="form-group">
+            <label for="phone">Telefone</label>
+            <input
+              class="form-control"
+              placeholder="(21)99999-9999"
+              id="phone"
+              type="phone"
+              name="phone"
+            />
+          </div>
+          <div class="row justify-content-between">
+            <div class="col">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="contactOption"
+                  id="WhatsApp"
+                  value="WhatsApp"
+                  checked
+                />
                 <label class="form-check-label" for="WhatsApp">
                   Contato via WhatsApp
                 </label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" type="radio" name="contactOption" id="PhoneCall" value="Phone Call">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="contactOption"
+                  id="PhoneCall"
+                  value="Phone Call"
+                />
                 <label class="form-check-label" for="PhoneCall">
                   Contato via ligação
                 </label>
               </div>
-          </div>
-          <div class="col">
-            <div class="form-group text-right">
-              <input class="btn btn-outline btn-xl js-scroll-trigger" type="submit" value="Enviar">
+            </div>
+            <div class="col">
+              <div class="form-group text-right">
+                <input
+                  class="btn btn-outline btn-xl js-scroll-trigger"
+                  type="submit"
+                  value="Enviar"
+                />
+              </div>
             </div>
           </div>
-        </div>
-        <script type="text/javascript">
-          $("#phone").mask("(00) 00000-0000");
-        </script>
-      </form>
-    </div>
-  </section>
+          <script type="text/javascript">
+            $("#phone").mask("(00) 00000-0000");
+          </script>
+        </form>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <p>&copy; Arcanjo Tech 2020. All Rights Reserved.</p>
+      </div>
+    </footer>
 
-  <footer>
-    <div class="container">
-      <p>&copy; Arcanjo Tech 2019. All Rights Reserved.</p>
-    </div>
-  </footer>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-  <!-- Custom scripts for this template -->
-  <script src="js/new-age.min.js"></script>
-
-</body>
-
+    <!-- Custom scripts for this template -->
+    <script src="js/new-age.min.js"></script>
+  </body>
 </html>
